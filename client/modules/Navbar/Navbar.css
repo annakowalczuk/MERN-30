@@ -1,0 +1,29 @@
+/* Navbar styles */
+.navbar {
+  background-size: cover;
+  background: #0077C4;
+}
+
+.navbar ul {
+  list-style: none;
+  width: 980px;
+  margin: auto;
+  text-align: right;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar ul li:hover a {
+  color: #fff;
+  text-decoration-line: underline;
+}
